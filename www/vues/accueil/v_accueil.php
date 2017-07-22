@@ -51,6 +51,64 @@
                     </div>
                     
                  </div>
+
+                  <div class="jobs_filters">
+                      <div class="container">
+                          <form class="" action="http://deximlabs.com/dexjobs/light/index.html">
+                              <!--col-lg-3 filter_width -->
+                              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon">
+                                  <div class="form-group">
+                                      <div class="dropdown">
+                                          <button class="filters_feilds btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                              Categorie
+                                              <span class="glyphicon glyphicon-menu-down"></span>
+                                          </button>
+
+                                          <div class="dropdown-menu "  aria-labelledby="dropdownMenu1">
+                                              <ul class="tiny_scrolling" id="style-3">
+                                                  <li><a href="#">Web Developer</a></li>
+                                                  <li><a href="#">Graphic designer</a></li>
+                                                  <li><a href="#">Developer</a></li>
+                                                  <li><a href="#">UX Designer</a></li>
+                                                  <li><a href="#">Web Developer</a></li>
+                                                  <li><a href="#">Graphic designer</a></li>
+                                                  <li><a href="#">Developer</a></li>
+                                                  <li><a href="#">UX Designer</a></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <span>Ex. Finance</span>
+                              </div>
+                              <!--col-lg-3 filter_width -->
+
+                              <!-- col-lg-5 filter_width -->
+                              <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12 filter_width bgicon">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Mot clé, métier ou compétence">
+                                      <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                                  </div>
+                                  <span>Ex. Designer</span>
+                              </div>
+                              <!-- col-lg-5 filter_width -->
+
+                              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon location">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Localisation">
+                                      <span class="glyphicon fa fa-location-arrow" aria-hidden="true"></span>
+                                  </div>
+                                  <span>Ex. Paris</span>
+                              </div>
+                              <div class="col-lg-1 col-md-2 col-sm-6 col-xs-12 filter_width bgicon submit">
+                                  <div class="form-group">
+                                      <input type="submit" class="customsubmit" name="submit" value="Search"/>
+                                      <span class="glyphicon fa fa-search" aria-hidden="true"></span>
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+
+                  </div>
                  
                 <?php
                     if(isset($_SESSION['role']))
