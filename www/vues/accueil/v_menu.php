@@ -39,7 +39,7 @@
                              <li><a href="index.php">ACCUEIL</a></li>
                              <li><a href="index.php?action=articles&ctrlaction=notre_demarche">NOTRE DEMARCHE</a></li>
 
-                                <li style="color:#31ce8a !important"><a href="index.php?action=articles&ctrlaction=informatique">IT en France</a></li>
+                                <li><a href="index.php?action=articles&ctrlaction=informatique" style="color:#31ce8a">IT en France</a></li>
                                 <div class="logins">
                                 <?php 
                 
