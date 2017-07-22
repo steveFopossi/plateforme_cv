@@ -29,13 +29,13 @@
             <div class="container main-container-home">
                     <div class="col-lg-offset-1 col-lg-11 col-md-12 col-sm-12 col-xs-12">
                         <ul class="nav nav-pills ">
-                            <li ><a data-toggle="tab" href="#register-account">s'inscrire</a></li>
-                            <li class="active"><a data-toggle="tab" href="#login" >se connecter</a></li>
+                            <li class="active"><a data-toggle="tab" href="#register-account">s'inscrire</a></li>
+                            <li ><a data-toggle="tab" href="#login" >se connecter</a></li>
                            
                         </ul>
 
                     <div class="tab-content">
-                        <div id="register-account" class="tab-pane fade in  white-text">
+                        <div id="register-account" class="tab-pane fade in active white-text">
                         	
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zero-padding-left">
                             	<!--<p>Login to your Recruiter account.</p>-->
@@ -229,7 +229,7 @@
                            		</div> 
                             </div>
                         </div>
-                        <div id="login" class="tab-pane fade in active white-text">
+                        <div id="login" class="tab-pane fade in white-text">
                         	
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zero-padding-left">
                             	<!--<p>Login to your Recruiter account.</p>-->
